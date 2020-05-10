@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>event-binding</title>
+</head>
+<body>
+	<div id="demo">
+		<button @click='increaseFont'>Increase</button>
+		<button @click='decreaseFont'>Decrease</button>
+		<h1 :style="{fontSize:fontSize+'px'}">{{message}}</h1>		
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

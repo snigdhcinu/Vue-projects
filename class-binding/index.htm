@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>class-binding</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div id="demo">
+
+		<!-- initialize the classname with something plain, not present in the styling. -->
+		
+		<h1 class="static" :class="{active:isActive,'unActive':!isActive}">{{message}}</h1>
+	</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

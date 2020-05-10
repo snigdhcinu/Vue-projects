@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inline-style-binding</title>
+</head>
+<body>
+	<div id='demo'>
+			<!-- Passing specific style properties. -->
+		<div :style="{color:'red',fontSize:fontSize+'px'}" >{{ message }}</div>
+			<!-- Passing the whole object as style. -->
+		<div :style="styleObject">{{message}}</div>
+			<!-- Passing the multiple objects as style. -->
+		<div :style="[styleObject,styleObject2]">{{message}}</div>
+
+	</div>
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
