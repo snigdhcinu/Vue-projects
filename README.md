@@ -1,2 +1,3 @@
 # Vue-projects
-vue projects.
+vue projects using vue CLI
+
