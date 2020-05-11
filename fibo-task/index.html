@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task-page</title>
+</head>
+<body>
+	<div id="demo">
+			<!-- <input type="number" v-model="message"> -->
+			<input-container inline-template>
+				<div>
+					<input type='number' v-model='message'>
+					<button type="submit"  v-on:click="calculateCube">Compute</button>
+				</div>
+			</input-container>
+			
+			<!-- <button type="submit"  v-on:click="calculateCube">Compute</button> -->
+
+	</div>
+	<div id="result">
+		
+	</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
